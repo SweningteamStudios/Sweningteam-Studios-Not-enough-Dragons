@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "not_enough_dragons",
+  "version": "${version}",
+  "name": "Not Enough Dragons",
+  "description": "Not enough Dragons is a fan made mod Based around the How to train your Dragon franchise from Dreamworks Animations LLC. The Nod was Developed by Sweningteam Studios",
+  "authors": [
+    "Sweningteam Studios: SwenefelixMC, TheRealGenie, S1NN3RR; MegaCLS Studios: Crazylazystef"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/not_enough_dragons/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.sweningteam.fabric.NotEnoughDragonsFabric"
+    ],
+    "client": [
+      "net.sweningteam.fabric.client.NotEnoughDragonsFabricClient"
+    ],
+    "fabric-datagen": [
+      "net.sweningteam.fabric.datagen.NotEnoughDragonsDatagen"
+    ]
+  },
+  "mixins": [
+    "not_enough_dragons.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

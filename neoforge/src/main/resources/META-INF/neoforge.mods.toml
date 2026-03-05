@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "[10,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "not_enough_dragons"
+version = "${version}"
+displayName = "Not Enough Dragons"
+authors = "Sweningteam Studios: SwenefelixMC, TheRealGenie, S1NN3RR; MegaCLS Studios: Crazylazystef"
+description = '''
+Not enough Dragons is a fan made mod Based around the How to train your Dragon franchise from Dreamworks Animations LLC. The Nod was Developed by Sweningteam Studios
+'''
+#logoFile = ""
+
+[[dependencies.not_enough_dragons]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.10,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.not_enough_dragons]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.10,)"
+ordering = "NONE"
+side = "BOTH"
+
+
+[[mixins]]
+config = "not_enough_dragons.mixins.json"

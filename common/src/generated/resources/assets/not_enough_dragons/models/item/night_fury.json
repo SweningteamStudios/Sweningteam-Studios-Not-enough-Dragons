@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "not_enough_dragons:item/night_fury"
+  }
+}
