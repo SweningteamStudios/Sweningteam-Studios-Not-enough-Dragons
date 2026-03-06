@@ -11,6 +11,9 @@ import org.jetbrains.annotations.Nullable;
 import software.bernie.geckolib.animatable.GeoEntity;
 
 public abstract class Dragon extends Animal implements GeoEntity {
+
+    public boolean isMoving() {return getDeltaMovement().z() != 0 || getDeltaMovement().x() != 0;}
+
     public abstract DragonFoodComponentType dragonFoodComponentType();
 
     protected Dragon(EntityType<? extends Animal> entityType, Level level) {
