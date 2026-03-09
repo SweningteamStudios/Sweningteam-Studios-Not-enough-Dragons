@@ -3,5 +3,9 @@
   "item.not_enough_dragons.night_fury": "Night Fury",
   "item.not_enough_dragons.night_fury_scales": "Night Fury scales",
   "itemGroup.not_enough_dragons.ned_dragons": "NED Dragons",
-  "itemGroup.not_enough_dragons.ned_misc_itms": "NED Misc Items"
+  "itemGroup.not_enough_dragons.ned_misc_itms": "NED Misc Items",
+  "text.not_enough_dragons.dragon.dragon.not_eat": "This Dragon doesn't want to eat right now",
+  "text.not_enough_dragons.dragon.dragon.not_tame": "You can't tamed this Dragon because it is already tamed by {}!",
+  "text.not_enough_dragons.dragon.dragon.not_tame_no_name": "You can't tame this Dragon because it is already tamed!",
+  "text.not_enough_dragons.dragon.get_trust": "Your trust is: "
 }

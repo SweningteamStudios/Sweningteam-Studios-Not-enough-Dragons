@@ -4,15 +4,15 @@ import net.minecraft.world.item.Item;
 import net.sweningteam.common.entity.dragons.base.Dragon;
 
 public class DragonFoodComponent {
-    double food_gained;
+    int food_gained;
     double trust_gained;
     DragonFoodComponent food_component;
-    public DragonFoodComponent(double food_gained, double trust_gained){
+    public DragonFoodComponent(int food_gained, double trust_gained){
         this.food_gained = food_gained;
         this.trust_gained = trust_gained;
         this.food_component = this;
     }
-    public DragonFoodComponent(double food_gained, double trust_gained, DragonFoodComponent food_component){
+    public DragonFoodComponent(int food_gained, double trust_gained, DragonFoodComponent food_component){
         this.food_gained = food_gained;
         this.trust_gained = trust_gained;
         this.food_component = food_component;
@@ -22,7 +22,7 @@ public class DragonFoodComponent {
             food_component.onEat(dragon);
         }
     }
-    public double getFood_gained(){
+    public int getFood_gained(){
         return this.food_gained;
     }
 

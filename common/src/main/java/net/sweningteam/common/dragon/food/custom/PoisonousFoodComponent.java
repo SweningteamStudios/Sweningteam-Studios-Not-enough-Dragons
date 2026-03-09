@@ -6,7 +6,7 @@ import net.sweningteam.common.dragon.food.DragonFoodComponent;
 import net.sweningteam.common.entity.dragons.base.Dragon;
 
 public class PoisonousFoodComponent extends DragonFoodComponent {
-    public PoisonousFoodComponent(double food_gained, double trust_gained) {
+    public PoisonousFoodComponent(int food_gained, double trust_gained) {
         super(food_gained, trust_gained);
     }
 
