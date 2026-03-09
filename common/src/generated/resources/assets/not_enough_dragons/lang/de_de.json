@@ -1,0 +1,11 @@
+{
+  "item.not_enough_dragons.gold_coin": "Goldmünze",
+  "item.not_enough_dragons.night_fury": "Nachtschatten",
+  "item.not_enough_dragons.night_fury_scales": "Nachtschatten-Schuppen",
+  "itemGroup.not_enough_dragons.ned_dragons": "NED Drachen",
+  "itemGroup.not_enough_dragons.ned_misc_itms": "NED Verschiedenes",
+  "text.not_enough_dragons.dragon.dragon.not_eat": "Dieser Drache möchte gerade nicht fressen",
+  "text.not_enough_dragons.dragon.dragon.not_tame": "Du kannst diesen Drachen nicht zähmen, da er bereits von {} gezähmt wurde!",
+  "text.not_enough_dragons.dragon.dragon.not_tame_no_name": "Du kannst diesen Drachen nicht zähmen, da er bereits gezähmt wurde!",
+  "text.not_enough_dragons.dragon.get_trust": "Dein Vertrauen beträgt: "
+}
