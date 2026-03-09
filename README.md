@@ -6,6 +6,6 @@ Not enough Dragons is a fan made mod Based around the How to train your Dragon f
 * Discord: https://discord.gg/GTnRYQadFf
 * Youtube: https://www.youtube.com/@sweningteam13
 
-### Mega CLS:
+### MegaCLS Studios:
 * Discord: https://discord.gg/2DbPMz7eKX
 * Youtube: https://www.youtube.com/@Stef_YT_
