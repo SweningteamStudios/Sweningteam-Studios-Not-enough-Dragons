@@ -1826,6 +1826,260 @@
 				}
 			}
 		},
+		"animation.nightfury.face.bite": {
+			"loop": true,
+			"animation_length": 0.75,
+			"bones": {
+				"LeftEyeLidTop": {
+					"position": {
+						"vector": [0.07934, 0, -0.06088]
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 0.2, 1]
+						},
+						"0.125": {
+							"vector": [1, 0.3, 1]
+						},
+						"0.25": {
+							"vector": [1, 0.2, 1]
+						}
+					}
+				},
+				"LeftEyeLidBottom": {
+					"position": {
+						"vector": [0.07934, 0, -0.06088]
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 0.2, 1]
+						},
+						"0.125": {
+							"vector": [1, 0.3, 1]
+						},
+						"0.25": {
+							"vector": [1, 0.2, 1]
+						}
+					}
+				},
+				"LeftPopil": {
+					"position": {
+						"vector": [0, 0.25, 0]
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 0.55, 0.1]
+						},
+						"0.125": {
+							"vector": [1, 0.55, 0.2]
+						},
+						"0.25": {
+							"vector": [1, 0.55, 0.1]
+						}
+					}
+				},
+				"LeftPopilWhite": {
+					"position": {
+						"0.0": {
+							"vector": [0, -0.2, 4.8]
+						},
+						"0.125": {
+							"vector": [0, -0.2, 2.8]
+						},
+						"0.25": {
+							"vector": [0, -0.2, 4.8]
+						}
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 4]
+						},
+						"0.125": {
+							"vector": [1, 1, 2.6]
+						},
+						"0.25": {
+							"vector": [1, 1, 4]
+						}
+					}
+				},
+				"Jaw": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [47.5, 0, 0]
+						},
+						"0.375": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"RightEyeLidTop": {
+					"position": {
+						"vector": [-0.07934, 0, -0.06088]
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 0.2, 1]
+						},
+						"0.125": {
+							"vector": [1, 0.3, 1]
+						},
+						"0.25": {
+							"vector": [1, 0.2, 1]
+						}
+					}
+				},
+				"RightEyeLidBottom": {
+					"position": {
+						"vector": [-0.07934, 0, -0.06088]
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 0.2, 1]
+						},
+						"0.125": {
+							"vector": [1, 0.3, 1]
+						},
+						"0.25": {
+							"vector": [1, 0.2, 1]
+						}
+					}
+				},
+				"RightPopil": {
+					"position": {
+						"vector": [0, 0.25, 0]
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 0.55, 0.1]
+						},
+						"0.125": {
+							"vector": [1, 0.55, 0.2]
+						},
+						"0.25": {
+							"vector": [1, 0.55, 0.1]
+						}
+					}
+				},
+				"RightPopilWhite": {
+					"position": {
+						"vector": [0, -0.2, 4.8]
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 4]
+						},
+						"0.125": {
+							"vector": [1, 1, 2.6]
+						},
+						"0.25": {
+							"vector": [1, 1, 4]
+						}
+					}
+				},
+				"LeftEar": {
+					"rotation": {
+						"vector": [-5, 0, 0]
+					}
+				},
+				"RightEar": {
+					"rotation": {
+						"vector": [-5, 0, 0]
+					}
+				},
+				"LeftHorn1": {
+					"rotation": {
+						"vector": [-5, 0, 0]
+					}
+				},
+				"RightHorn1": {
+					"rotation": {
+						"vector": [-5, 0, 0]
+					}
+				},
+				"NeekBase": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [-25, 0, 0]
+						},
+						"0.3333": {
+							"vector": [22.5, 0, 0]
+						},
+						"0.5": {
+							"vector": [32.5, 0, 0]
+						},
+						"0.75": {
+							"vector": [0, 0, 1]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [0, 0, 2]
+						},
+						"0.375": {
+							"vector": [0, 0, -0.5]
+						},
+						"0.75": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"Neek": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [-12, 0, 0]
+						},
+						"0.4167": {
+							"vector": [-9.5, 0, 0]
+						},
+						"0.75": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"Head": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [17, 0, 0]
+						},
+						"0.3333": {
+							"vector": [-24.5, 0, 0]
+						},
+						"0.75": {
+							"vector": [0, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.0833": {
+							"vector": [0, 0.5658, 0.57833]
+						},
+						"0.3333": {
+							"vector": [0, -1, 0]
+						},
+						"0.75": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
 		"animation.nightfury.face.tamed": {
 			"loop": true,
 			"animation_length": 3.5833,
@@ -1931,12 +2185,12 @@
 				},
 				"LeftEar": {
 					"rotation": {
-						"vector": [10, 0, 0]
+						"vector": [20, 0, 0]
 					}
 				},
 				"RightEar": {
 					"rotation": {
-						"vector": [10, 0, 0]
+						"vector": [20, 0, 0]
 					}
 				}
 			}

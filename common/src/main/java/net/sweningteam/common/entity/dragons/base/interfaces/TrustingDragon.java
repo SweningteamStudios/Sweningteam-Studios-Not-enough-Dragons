@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.UUID;
 
 public interface TrustingDragon {
-    DragonTrust trust = new DragonTrust();
+    public DragonTrust trust = new DragonTrust();
 
     Gson gson = new Gson();
 
@@ -19,7 +19,7 @@ public interface TrustingDragon {
         trust.getTrustFromString(input.getStringOr("Trust",gson.toJson(new HashMap<String,Integer>(),trust.getTrustMap().getClass())));
     }
     default void addTrustSaveData(ValueOutput output){
-        output.putString("Trust",this.trust.toString());
+        output.putString("Trust", trust.toString());
     }
 
     default void notifyOtherTrust( Dragon other, UUID entity, double trust){
