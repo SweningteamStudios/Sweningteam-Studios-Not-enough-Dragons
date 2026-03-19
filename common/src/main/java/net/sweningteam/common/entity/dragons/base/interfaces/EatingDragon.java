@@ -21,7 +21,6 @@ public interface EatingDragon {
     int MaxSaturation();
 
     int getRemainingHungerUpdateTime();
-
     void setRemainingHungerUpdateTime(int remainingHungerTimer);
 
     int MaxHungerUpdateTime();
@@ -69,6 +68,6 @@ public interface EatingDragon {
         return dragonFoodComponentType().contains(item);
     }
     default boolean canIncreseSaturation(boolean other){
-        return getHunger() < MaxHunger() || other;
+        return getRemainingHungerUpdateTime() <= 0 && (getHunger() < MaxHunger() || other);
     }
 }
