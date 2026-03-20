@@ -112,7 +112,7 @@ public class NightFury extends Dragon implements NeutralMob, OwnableEntity, Trus
 
     @Override
     public int MaxHungerUpdateTime() {
-        return 5;
+        return 15;
     }
 
     @Override
@@ -174,14 +174,14 @@ public class NightFury extends Dragon implements NeutralMob, OwnableEntity, Trus
                     event.setAndContinue(RawAnimation.begin().thenPlay("animation.nightfury.face.eat"));
                     return PlayState.CONTINUE;
                 } else {
-                    if (entityData.get(TAMED)) {
+                    if(this.entityData.get(BLINKING)){
+                        event.setAndContinue(RawAnimation.begin().thenPlay("animation.nightfury.face.blink"));
+                        return PlayState.CONTINUE;
+                    }else {
+                        if (entityData.get(TAMED)) {
                         event.setAndContinue(RawAnimation.begin().thenPlay("animation.nightfury.face.tamed"));
                         return PlayState.CONTINUE;
-                    } else{
-                        if(this.entityData.get(BLINKING)){
-                            event.setAndContinue(RawAnimation.begin().thenPlay("animation.nightfury.face.blink"));
-                            return PlayState.CONTINUE;
-                        }else {
+                        } else{
                         event.setAndContinue(RawAnimation.begin().thenPlay("animation.nightfury.face.idle"));
                         return PlayState.CONTINUE;
                         }
@@ -350,9 +350,8 @@ public class NightFury extends Dragon implements NeutralMob, OwnableEntity, Trus
         if(this.blinkTimer > 0){
             this.blinkTimer = blinkTimer -1;
         }else {
-            this.blinkTimer = 200;
+            this.blinkTimer = 100 + random.nextInt(150);
             this.blinkProgress = 11;
-            NotEnoughDragons.LOGGER.info("Blincking");
         }
         if(this.blinkProgress > 0){
             this.blinkProgress = this.blinkProgress -1;
@@ -361,7 +360,6 @@ public class NightFury extends Dragon implements NeutralMob, OwnableEntity, Trus
             this.blinkProgress = 0;
             this.entityData.set(BLINKING,false);
         }
-        NotEnoughDragons.LOGGER.info(String.valueOf(blinkTimer));
     }
 
     public void BigBox(){

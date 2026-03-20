@@ -515,319 +515,6 @@
 				}
 			}
 		},
-		"animation.nightfury.face.idle": {
-			"loop": true,
-			"animation_length": 3.5833,
-			"bones": {
-				"LeftEyeLidTop": {
-					"position": {
-						"vector": [0.07934, 0, -0.06088]
-					},
-					"scale": {
-						"vector": [1, 0.1, 1]
-					}
-				},
-				"LeftEyeLidBottom": {
-					"position": {
-						"vector": [0.07934, 0, -0.06088]
-					},
-					"scale": {
-						"vector": [1, 0.1, 1]
-					}
-				},
-				"LeftPopil": {
-					"position": {
-						"vector": [0, "0.25+math.sin(query.anim_time*100)*0.1", 0]
-					},
-					"scale": {
-						"vector": [1, 0.55, 0.3]
-					}
-				},
-				"LeftPopilWhite": {
-					"position": {
-						"vector": [0, -0.2, 2]
-					},
-					"scale": {
-						"vector": [1, 1, 2]
-					}
-				},
-				"Jaw": {
-					"rotation": {
-						"vector": ["1.5-math.sin(query.anim_time*200)*1.25", 0, 0]
-					}
-				},
-				"RightEyeLidTop": {
-					"position": {
-						"vector": [-0.07934, 0, -0.06088]
-					},
-					"scale": {
-						"vector": [1, 0.1, 1]
-					}
-				},
-				"RightEyeLidBottom": {
-					"position": {
-						"vector": [-0.07934, 0, -0.06088]
-					},
-					"scale": {
-						"vector": [1, 0.1, 1]
-					}
-				},
-				"RightPopil": {
-					"position": {
-						"vector": [0, "0.25+math.sin(query.anim_time*100)*0.1", 0]
-					},
-					"scale": {
-						"vector": [1, 0.55, 0.3]
-					}
-				},
-				"RightPopilWhite": {
-					"position": {
-						"vector": [0, -0.2, 2]
-					},
-					"scale": {
-						"vector": [1, 1, 2]
-					}
-				}
-			}
-		},
-		"animation.nightfury.face.eat": {
-			"loop": true,
-			"animation_length": 1.7917,
-			"bones": {
-				"NeekBase": {
-					"rotation": {
-						"vector": ["3-math.sin(query.anim_time*600)*3", 0, 0]
-					}
-				},
-				"Neek": {
-					"rotation": {
-						"vector": ["3-math.sin(query.anim_time*600)*3", 0, 0]
-					}
-				},
-				"LeftEyeLidTop": {
-					"position": {
-						"vector": [0.07934, 0, -0.06088]
-					},
-					"scale": {
-						"vector": [1, 0.2, 1]
-					}
-				},
-				"LeftEyeLidBottom": {
-					"position": {
-						"vector": [0.07934, 0, -0.06088]
-					},
-					"scale": {
-						"vector": [1, 0.2, 1]
-					}
-				},
-				"LeftPopil": {
-					"position": {
-						"vector": [0, "0.25+math.sin(query.anim_time*200)*0.05", 0]
-					},
-					"scale": {
-						"vector": [1, 0.55, 0.3]
-					}
-				},
-				"LeftPopilWhite": {
-					"position": {
-						"vector": [0, -0.2, 2]
-					},
-					"scale": {
-						"vector": [1, 1, 2]
-					}
-				},
-				"Jaw": {
-					"rotation": {
-						"vector": ["21.5-math.sin(query.anim_time*600)*20", 0, 0]
-					}
-				},
-				"Tongue": {
-					"rotation": {
-						"vector": ["-math.cos(query.anim_time*400)*7.5 - math.sin(query.anim_time*2400)*0.25", 0, 0]
-					}
-				},
-				"Tongue2": {
-					"rotation": {
-						"vector": ["-math.cos(query.anim_time*400)*7.5 - math.sin(query.anim_time*2400)*0.25", 0, 0]
-					}
-				},
-				"TongueTip": {
-					"rotation": {
-						"vector": ["-math.cos(query.anim_time*400)*-7.5 - math.sin(query.anim_time*2400)*0.25", 0, 0]
-					}
-				},
-				"LeftEar": {
-					"rotation": {
-						"vector": [-10, 0, 0]
-					}
-				},
-				"RightEar": {
-					"rotation": {
-						"vector": [-10, 0, 0]
-					}
-				},
-				"LeftHorn1": {
-					"rotation": {
-						"vector": [-10, 0, 0]
-					}
-				},
-				"RightHorn1": {
-					"rotation": {
-						"vector": [-10, 0, 0]
-					}
-				},
-				"RightEyeLidTop": {
-					"position": {
-						"vector": [-0.07934, 0, -0.06088]
-					},
-					"scale": {
-						"vector": [1, 0.2, 1]
-					}
-				},
-				"RightEyeLidBottom": {
-					"position": {
-						"vector": [-0.07934, 0, -0.06088]
-					},
-					"scale": {
-						"vector": [1, 0.2, 1]
-					}
-				},
-				"RightPopil": {
-					"position": {
-						"vector": [0, "0.25+math.sin(query.anim_time*100)*0.1", 0]
-					},
-					"scale": {
-						"vector": [1, 0.55, 0.3]
-					}
-				},
-				"RightPopilWhite": {
-					"position": {
-						"vector": [0, -0.2, 2]
-					},
-					"scale": {
-						"vector": [1, 1, 2]
-					}
-				}
-			}
-		},
-		"animation.nightfury.face.blink": {
-			"loop": true,
-			"animation_length": 1.0417,
-			"bones": {
-				"LeftEyeLidTop": {
-					"position": {
-						"vector": [0.07934, 0, -0.06088]
-					},
-					"scale": {
-						"0.0": {
-							"vector": [1, 0.1, 1]
-						},
-						"0.5": {
-							"vector": [1, 0.6, 1]
-						},
-						"1.0": {
-							"vector": [1, 0.1, 1]
-						}
-					}
-				},
-				"LeftEyeLidBottom": {
-					"position": {
-						"vector": [0.07934, 0, -0.06088]
-					},
-					"scale": {
-						"0.0": {
-							"vector": [1, 0.1, 1]
-						},
-						"0.5": {
-							"vector": [1, 0.6, 1]
-						},
-						"1.0": {
-							"vector": [1, 0.1, 1]
-						}
-					}
-				},
-				"LeftPopil": {
-					"position": {
-						"vector": [0, 0.25, 0]
-					},
-					"scale": {
-						"0.0": {
-							"vector": [1, 0.55, 0.3]
-						},
-						"0.5": {
-							"vector": [1, 0.55, 0.5]
-						},
-						"1.0": {
-							"vector": [1, 0.55, 0.3]
-						}
-					}
-				},
-				"LeftPopilWhite": {
-					"position": {
-						"vector": [0, -0.2, 2]
-					},
-					"scale": {
-						"vector": [1, 1, 2]
-					}
-				},
-				"RightEyeLidTop": {
-					"position": {
-						"vector": [-0.07934, 0, -0.06088]
-					},
-					"scale": {
-						"0.0": {
-							"vector": [1, 0.1, 1]
-						},
-						"0.5": {
-							"vector": [1, 0.7, 1]
-						},
-						"1.0": {
-							"vector": [1, 0.1, 1]
-						}
-					}
-				},
-				"RightEyeLidBottom": {
-					"position": {
-						"vector": [-0.07934, 0, -0.06088]
-					},
-					"scale": {
-						"0.0": {
-							"vector": [1, 0.1, 1]
-						},
-						"0.5": {
-							"vector": [1, 0.5, 1]
-						},
-						"1.0": {
-							"vector": [1, 0.1, 1]
-						}
-					}
-				},
-				"RightPopil": {
-					"position": {
-						"vector": [0, 0.25, 0]
-					},
-					"scale": {
-						"0.0": {
-							"vector": [1, 0.55, 0.3]
-						},
-						"0.5": {
-							"vector": [1, 0.55, 0.5]
-						},
-						"1.0": {
-							"vector": [1, 0.55, 0.3]
-						}
-					}
-				},
-				"RightPopilWhite": {
-					"position": {
-						"vector": [0, -0.2, 2]
-					},
-					"scale": {
-						"vector": [1, 1, 2]
-					}
-				}
-			}
-		},
 		"animation.nightfury.sneaking": {
 			"loop": true,
 			"animation_length": 3.5833,
@@ -1731,6 +1418,457 @@
 				}
 			}
 		},
+		"animation.nightfury.face.idle": {
+			"loop": true,
+			"animation_length": 3.5833,
+			"bones": {
+				"LeftEyeLidTop": {
+					"position": {
+						"vector": [0.07934, 0, -0.06088]
+					},
+					"scale": {
+						"vector": [1, 0.1, 1]
+					}
+				},
+				"LeftEyeLidBottom": {
+					"position": {
+						"vector": [0.07934, 0, -0.06088]
+					},
+					"scale": {
+						"vector": [1, 0.1, 1]
+					}
+				},
+				"LeftPopil": {
+					"position": {
+						"vector": [0, "0.25+math.sin(query.anim_time*100)*0.1", 0]
+					},
+					"scale": {
+						"vector": [1, 0.55, 0.3]
+					}
+				},
+				"LeftPopilWhite": {
+					"position": {
+						"vector": [0, -0.2, 2]
+					},
+					"scale": {
+						"vector": [1, 1, 2]
+					}
+				},
+				"Jaw": {
+					"rotation": {
+						"vector": ["1.5-math.sin(query.anim_time*200)*1.25", 0, 0]
+					}
+				},
+				"RightEyeLidTop": {
+					"position": {
+						"vector": [-0.07934, 0, -0.06088]
+					},
+					"scale": {
+						"vector": [1, 0.1, 1]
+					}
+				},
+				"RightEyeLidBottom": {
+					"position": {
+						"vector": [-0.07934, 0, -0.06088]
+					},
+					"scale": {
+						"vector": [1, 0.1, 1]
+					}
+				},
+				"RightPopil": {
+					"position": {
+						"vector": [0, "0.25+math.sin(query.anim_time*100)*0.1", 0]
+					},
+					"scale": {
+						"vector": [1, 0.55, 0.3]
+					}
+				},
+				"RightPopilWhite": {
+					"position": {
+						"vector": [0, -0.2, 2]
+					},
+					"scale": {
+						"vector": [1, 1, 2]
+					}
+				},
+				"TeethLeftUp": {
+					"position": {
+						"vector": [0, 1, 0]
+					}
+				},
+				"TeethRightUp": {
+					"position": {
+						"vector": [0, 1, 0]
+					}
+				}
+			}
+		},
+		"animation.nightfury.face.tamed": {
+			"loop": true,
+			"animation_length": 3.5833,
+			"bones": {
+				"LeftEyeLidTop": {
+					"position": {
+						"vector": [0.07934, 0, -0.06088]
+					},
+					"scale": {
+						"vector": [1, 0.1, 1]
+					}
+				},
+				"LeftEyeLidBottom": {
+					"position": {
+						"vector": [0.07934, 0, -0.06088]
+					},
+					"scale": {
+						"vector": [1, 0.1, 1]
+					}
+				},
+				"LeftPopil": {
+					"position": {
+						"vector": [0.06088, "0.25+math.sin(query.anim_time*100)*0.1", 0.07934]
+					},
+					"scale": {
+						"vector": [1, 0.55, 0.6]
+					}
+				},
+				"LeftPopilWhite": {
+					"position": {
+						"vector": [0, -0.2, 2]
+					},
+					"scale": {
+						"vector": [1, 1, 2]
+					}
+				},
+				"Jaw": {
+					"rotation": {
+						"vector": ["1.5-math.sin(query.anim_time*200)*1.25", 0, 0]
+					}
+				},
+				"RightEyeLidTop": {
+					"position": {
+						"vector": [-0.07934, 0, -0.06088]
+					},
+					"scale": {
+						"vector": [1, 0.1, 1]
+					}
+				},
+				"RightEyeLidBottom": {
+					"position": {
+						"vector": [-0.07934, 0, -0.06088]
+					},
+					"scale": {
+						"vector": [1, 0.1, 1]
+					}
+				},
+				"RightPopil": {
+					"position": {
+						"vector": [-0.06088, "0.25+math.sin(query.anim_time*100)*0.1", 0.07934]
+					},
+					"scale": {
+						"vector": [1, 0.55, 0.6]
+					}
+				},
+				"RightPopilWhite": {
+					"position": {
+						"vector": [0, -0.2, 2]
+					},
+					"scale": {
+						"vector": [1, 1, 2]
+					}
+				},
+				"NeekBase": {
+					"rotation": {
+						"vector": [-5, 0, 0]
+					}
+				},
+				"Head": {
+					"rotation": {
+						"vector": [5, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"LeftBrow": {
+					"position": {
+						"vector": [0, 0.1, 0]
+					}
+				},
+				"RightBrow": {
+					"position": {
+						"vector": [0, 0.1, 0]
+					}
+				},
+				"TeethLeftDown": {
+					"position": {
+						"vector": [0, -1, 0]
+					}
+				},
+				"TeethRightDown": {
+					"position": {
+						"vector": [0, -1, 0]
+					}
+				},
+				"LeftEar": {
+					"rotation": {
+						"vector": [20, 0, 0]
+					}
+				},
+				"RightEar": {
+					"rotation": {
+						"vector": [20, 0, 0]
+					}
+				},
+				"TeethLeftUp": {
+					"position": {
+						"vector": [0, 1, 0]
+					}
+				},
+				"TeethRightUp": {
+					"position": {
+						"vector": [0, 1, 0]
+					}
+				}
+			}
+		},
+		"animation.nightfury.face.blink": {
+			"loop": true,
+			"animation_length": 1.0417,
+			"bones": {
+				"LeftEyeLidTop": {
+					"position": {
+						"vector": [0.07934, 0, -0.06088]
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 0.1, 1]
+						},
+						"0.5": {
+							"vector": [1, 0.6, 1]
+						},
+						"1.0": {
+							"vector": [1, 0.1, 1]
+						}
+					}
+				},
+				"LeftEyeLidBottom": {
+					"position": {
+						"vector": [0.07934, 0, -0.06088]
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 0.1, 1]
+						},
+						"0.5": {
+							"vector": [1, 0.6, 1]
+						},
+						"1.0": {
+							"vector": [1, 0.1, 1]
+						}
+					}
+				},
+				"LeftPopil": {
+					"position": {
+						"vector": [0, 0.25, 0]
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 0.55, 0.3]
+						},
+						"0.5": {
+							"vector": [1, 0.55, 0.5]
+						},
+						"1.0": {
+							"vector": [1, 0.55, 0.3]
+						}
+					}
+				},
+				"LeftPopilWhite": {
+					"position": {
+						"vector": [0, -0.2, 2]
+					},
+					"scale": {
+						"vector": [1, 1, 2]
+					}
+				},
+				"RightEyeLidTop": {
+					"position": {
+						"vector": [-0.07934, 0, -0.06088]
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 0.1, 1]
+						},
+						"0.5": {
+							"vector": [1, 0.7, 1]
+						},
+						"1.0": {
+							"vector": [1, 0.1, 1]
+						}
+					}
+				},
+				"RightEyeLidBottom": {
+					"position": {
+						"vector": [-0.07934, 0, -0.06088]
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 0.1, 1]
+						},
+						"0.5": {
+							"vector": [1, 0.5, 1]
+						},
+						"1.0": {
+							"vector": [1, 0.1, 1]
+						}
+					}
+				},
+				"RightPopil": {
+					"position": {
+						"vector": [0, 0.25, 0]
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 0.55, 0.3]
+						},
+						"0.5": {
+							"vector": [1, 0.55, 0.5]
+						},
+						"1.0": {
+							"vector": [1, 0.55, 0.3]
+						}
+					}
+				},
+				"RightPopilWhite": {
+					"position": {
+						"vector": [0, -0.2, 2]
+					},
+					"scale": {
+						"vector": [1, 1, 2]
+					}
+				}
+			}
+		},
+		"animation.nightfury.face.eat": {
+			"loop": true,
+			"animation_length": 1.7917,
+			"bones": {
+				"NeekBase": {
+					"rotation": {
+						"vector": ["3-math.sin(query.anim_time*600)*3", 0, 0]
+					}
+				},
+				"Neek": {
+					"rotation": {
+						"vector": ["3-math.sin(query.anim_time*600)*3", 0, 0]
+					}
+				},
+				"LeftEyeLidTop": {
+					"position": {
+						"vector": [0.07934, 0, -0.06088]
+					},
+					"scale": {
+						"vector": [1, 0.2, 1]
+					}
+				},
+				"LeftEyeLidBottom": {
+					"position": {
+						"vector": [0.07934, 0, -0.06088]
+					},
+					"scale": {
+						"vector": [1, 0.2, 1]
+					}
+				},
+				"LeftPopil": {
+					"position": {
+						"vector": [0, "0.25+math.sin(query.anim_time*200)*0.05", 0]
+					},
+					"scale": {
+						"vector": [1, 0.55, 0.3]
+					}
+				},
+				"LeftPopilWhite": {
+					"position": {
+						"vector": [0, -0.2, 2]
+					},
+					"scale": {
+						"vector": [1, 1, 2]
+					}
+				},
+				"Jaw": {
+					"rotation": {
+						"vector": ["21.5-math.sin(query.anim_time*600)*20", 0, 0]
+					}
+				},
+				"Tongue": {
+					"rotation": {
+						"vector": ["-math.cos(query.anim_time*400)*7.5 - math.sin(query.anim_time*2400)*0.25", 0, 0]
+					}
+				},
+				"Tongue2": {
+					"rotation": {
+						"vector": ["-math.cos(query.anim_time*400)*7.5 - math.sin(query.anim_time*2400)*0.25", 0, 0]
+					}
+				},
+				"TongueTip": {
+					"rotation": {
+						"vector": ["-math.cos(query.anim_time*400)*-7.5 - math.sin(query.anim_time*2400)*0.25", 0, 0]
+					}
+				},
+				"LeftEar": {
+					"rotation": {
+						"vector": [-10, 0, 0]
+					}
+				},
+				"RightEar": {
+					"rotation": {
+						"vector": [-10, 0, 0]
+					}
+				},
+				"LeftHorn1": {
+					"rotation": {
+						"vector": [-10, 0, 0]
+					}
+				},
+				"RightHorn1": {
+					"rotation": {
+						"vector": [-10, 0, 0]
+					}
+				},
+				"RightEyeLidTop": {
+					"position": {
+						"vector": [-0.07934, 0, -0.06088]
+					},
+					"scale": {
+						"vector": [1, 0.2, 1]
+					}
+				},
+				"RightEyeLidBottom": {
+					"position": {
+						"vector": [-0.07934, 0, -0.06088]
+					},
+					"scale": {
+						"vector": [1, 0.2, 1]
+					}
+				},
+				"RightPopil": {
+					"position": {
+						"vector": [0, "0.25+math.sin(query.anim_time*100)*0.1", 0]
+					},
+					"scale": {
+						"vector": [1, 0.55, 0.3]
+					}
+				},
+				"RightPopilWhite": {
+					"position": {
+						"vector": [0, -0.2, 2]
+					},
+					"scale": {
+						"vector": [1, 1, 2]
+					}
+				}
+			}
+		},
 		"animation.nightfury.face.aggro": {
 			"loop": true,
 			"animation_length": 3.5833,
@@ -2076,121 +2214,6 @@
 						"0.75": {
 							"vector": [0, 0, 0]
 						}
-					}
-				}
-			}
-		},
-		"animation.nightfury.face.tamed": {
-			"loop": true,
-			"animation_length": 3.5833,
-			"bones": {
-				"LeftEyeLidTop": {
-					"position": {
-						"vector": [0.07934, 0, -0.06088]
-					},
-					"scale": {
-						"vector": [1, 0.1, 1]
-					}
-				},
-				"LeftEyeLidBottom": {
-					"position": {
-						"vector": [0.07934, 0, -0.06088]
-					},
-					"scale": {
-						"vector": [1, 0.1, 1]
-					}
-				},
-				"LeftPopil": {
-					"position": {
-						"vector": [0.06088, "0.25+math.sin(query.anim_time*100)*0.1", 0.07934]
-					},
-					"scale": {
-						"vector": [1, 0.55, 0.6]
-					}
-				},
-				"LeftPopilWhite": {
-					"position": {
-						"vector": [0, -0.2, 2]
-					},
-					"scale": {
-						"vector": [1, 1, 2]
-					}
-				},
-				"Jaw": {
-					"rotation": {
-						"vector": ["1.5-math.sin(query.anim_time*200)*1.25", 0, 0]
-					}
-				},
-				"RightEyeLidTop": {
-					"position": {
-						"vector": [-0.07934, 0, -0.06088]
-					},
-					"scale": {
-						"vector": [1, 0.1, 1]
-					}
-				},
-				"RightEyeLidBottom": {
-					"position": {
-						"vector": [-0.07934, 0, -0.06088]
-					},
-					"scale": {
-						"vector": [1, 0.1, 1]
-					}
-				},
-				"RightPopil": {
-					"position": {
-						"vector": [-0.06088, "0.25+math.sin(query.anim_time*100)*0.1", 0.07934]
-					},
-					"scale": {
-						"vector": [1, 0.55, 0.6]
-					}
-				},
-				"RightPopilWhite": {
-					"position": {
-						"vector": [0, -0.2, 2]
-					},
-					"scale": {
-						"vector": [1, 1, 2]
-					}
-				},
-				"NeekBase": {
-					"rotation": {
-						"vector": [-5, 0, 0]
-					}
-				},
-				"Head": {
-					"rotation": {
-						"vector": [5, 0, 0]
-					}
-				},
-				"LeftBrow": {
-					"position": {
-						"vector": [0, 0.1, 0]
-					}
-				},
-				"RightBrow": {
-					"position": {
-						"vector": [0, 0.1, 0]
-					}
-				},
-				"TeethLeftDown": {
-					"position": {
-						"vector": [0, -1, 0]
-					}
-				},
-				"TeethRightDown": {
-					"position": {
-						"vector": [0, -1, 0]
-					}
-				},
-				"LeftEar": {
-					"rotation": {
-						"vector": [20, 0, 0]
-					}
-				},
-				"RightEar": {
-					"rotation": {
-						"vector": [20, 0, 0]
 					}
 				}
 			}
